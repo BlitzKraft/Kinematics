@@ -18,8 +18,28 @@ i     X     Y     Z
 Index
 -----
 F   Forward
-H   Horizantal
+H   Horizontal
 L   Left
 R   Right
 UP  Duh!
+
+
+DH Parameters
+=============
+i   alpha a   d   theta
+-----------------------
+0   0     0   0   0
+1   -90   15  15  
+2   -90   25  0
+3   -90   25  10*
+4   90    25  0
+5   -90   25  0
+6   90    10  0
+
+*Zero in Highland Render, but non-zero in actual design.
+Angles in degrees and lengths in cm.
+
+DH Matrices
+===========
+
 
