@@ -1,0 +1,25 @@
+#The following is a geometry for the 7 DOF robotic arm
+
+References
+----------
+Base plane is the ground.
+Observer is facing in the same direction as the robot.
+
+i     X     Y     Z     
+-------------------
+0     F     H-L   UP
+1     F     UP    H-R
+2     F     H-L   UP
+3     F     UP    H-R
+4     UP    H-R   F
+5     F     UP    H-R
+6     UP    H-R   F
+
+Index
+-----
+F   Forward
+H   Horizantal
+L   Left
+R   Right
+UP  Duh!
+
