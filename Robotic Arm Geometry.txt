@@ -28,13 +28,13 @@ DH Parameters
 =============
 i   alpha a   d   theta
 -----------------------
-0   0     0   0   0
-1   -90   15  15  
-2   -90   25  0
-3   -90   25  10*
-4   90    25  0
-5   -90   25  0
-6   90    10  0
+0   0     0   0   Th0
+1   -90   15  15  Th1
+2   -90   25  0   Th2
+3   -90   25  10* Th3
+4   90    25  0   Th4
+5   -90   25  0   Th5
+6   90    10  0   Th6
 
 *Zero in Highland Render, but non-zero in actual design.
 Angles in degrees and lengths in cm.
