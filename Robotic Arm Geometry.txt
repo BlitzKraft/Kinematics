@@ -42,4 +42,20 @@ Angles in degrees and lengths in cm.
 DH Matrices
 ===========
 
+Array DH[7];
+Array alpha = [0 -pi/2 -pi/2 -pi/2 pi/2 -pi/2 pi/2];
+Array d = [0 15 0 10 0 0 0];
+Array a = [0 15 25 25 25 25 10];
+
+
+for i= 0 to 6 i++
+  {
+  DH[i] = [cos(Th[i])   -sin(Th[i])*cos(alpha[i])   sin(Th[i])*sin(alpha[i]) a[i]*cos(Th[i]);
+           sin(Th[i])    cos(Th[i])*cos(alpha[i])  -cos(Th[i])*sin(alpha[i]) a[i]*sin(Th[i]);
+              0               sin(alpha[i])               cos(alpha[i])           d[i]      ;
+              0                     0                           0                   1       ;]
+  }
+  
+  
+  
 
